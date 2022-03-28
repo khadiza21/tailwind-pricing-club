@@ -6,10 +6,10 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   const links = [
     { id: 1, name: "Home", link: "/home" },
-    { id: 1, name: "Shop", link: "/shop" },
-    { id: 1, name: "Deals", link: "/deals" },
-    { id: 1, name: "Contact", link: "/contact" },
-    { id: 1, name: "About Us", link: "/aboutus" },
+    { id: 2, name: "Shop", link: "/shop" },
+    { id: 3, name: "Deals", link: "/deals" },
+    { id: 4, name: "Contact", link: "/contact" },
+    { id: 5, name: "About Us", link: "/aboutus" },
   ];
   return (
     <nav className="bg-indigo-200">
