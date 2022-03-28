@@ -42,8 +42,8 @@ const Pricing = () => {
   ];
   return (
     <div className="bg-indigo-300 p-4 mt-8">
-      <h1 className="text-6xl font-mono text-white">Best Deals of the Town</h1>
-      <p>
+      <h1 className="text-6xl font-mono font-bold text-white">Best Deals of the Town</h1>
+      <p className="font-bold my-5 text-xl text-justify px-8">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
         nesciunt optio deleniti cum, ipsum accusantium similique error porro
         quisquam iure.

@@ -8,12 +8,12 @@ const PricingOption = (props) => {
   return (
     <div className="bg-white p-4 rounded-lg">
       <h2 className="bg-indigo-300 py-2 rounded text-xl font-bold">{name}</h2>
-      <p>
+      <p className="my-4">
         <span className="text-5xl font-bold">{price}</span>
         <span className="text-xl font-bold text-gray-500">/mo</span>
       </p>
       <div>
-        <h3 className="text-xl text-left">Benefits:</h3>
+        <h3 className="text-xl text-left py-2">Benefits:</h3>
         {benifits.map((benifit) => (
           <Benifits benifit={benifit}></Benifits>
         ))}
